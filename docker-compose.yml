@@ -1,0 +1,12 @@
+services:
+  processing:
+      build:
+        context: processing
+      volumes:
+      - ./data:/mnt/data
+      - ./processing:/mnt/code
+      - ./credentials:/mnt/credentials
+      environment:
+        TIMEZONE: America/Sao_Paulo
+      image: football-matchmaker
+      container_name: football-matchmaker
