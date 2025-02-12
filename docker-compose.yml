@@ -5,7 +5,6 @@ services:
       volumes:
       - ./data:/mnt/data
       - ./processing:/mnt/code
-      - ./credentials:/mnt/credentials
       environment:
         TIMEZONE: America/Sao_Paulo
       image: football-matchmaker
