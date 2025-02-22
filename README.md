@@ -17,7 +17,7 @@ First you'll need to create the structure below in the project root:
 `docker-compose run --rm processing bash`
 
 
-# Run the scrip to create de croped images with faces
+# Run the scrip to create teams based on .csv
 `python3 matchmaker.py`
 
 # Run command directly
